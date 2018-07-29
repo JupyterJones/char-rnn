@@ -81,7 +81,7 @@ cmd:option('-print_every',1,'how many steps/minibatches between printing out the
 --cmd:option('-eval_val_every',250,'every how many iterations should we evaluate on validation data?')
 cmd:option('-eval_val_every',100,'every how many iterations should we evaluate on validation data?')
 cmd:option('-checkpoint_dir', 'Alice', 'output directory where checkpoints get written')
-cmd:option('-savefile','BASEalice','filename to autosave the checkpont to. Will be inside checkpoint_dir/')
+cmd:option('-savefile','BASEalice2','filename to autosave the checkpont to. Will be inside checkpoint_dir/')
 cmd:option('-accurate_gpu_timing',0,'set this flag to 1 to get precise timings when using GPU. Might make code bit slower but reports accurate timings.')
 -- GPU/CPU
 cmd:option('-gpuid',-1,'which gpu to use. -1 = use CPU')
@@ -367,7 +367,7 @@ for i = 1, iterations do
         print(opt.checkpoint_dir, ScriptName, optim_state.learningRate, opt.savefile, opt.rnn_size, train_loss, epoch, val_loss) 
         --local savefile = string.format('%s/GRU-%s_learningrate_%.12f_rnn_size_%d_%s,_train_loss_%6.8f,_epoch_%.2f_%.4f.t7', opt.checkpoint_dir, ScriptName, optim_state.learningRate, optim.rnn_size, opt.savefile, train_loss, epoch, val_loss)
         --print(opt.checkpoint_dir, opt.savefile, opt.learning_rate_decay, optim_state.learningRate, epoch, val_loss) 
-        savefile = string.format('%s/%s_%s_GRU_current-learning-rate_%.12f_rnn-size_%s,_train_loss_%6.8f,_epoch_%.2f_evaluationloss_%.4f.t7', opt.checkpoint_dir, opt.savefile, ScriptName, optim_state.learningRate, opt.rnn_size, train_loss, epoch, val_loss)
+        savefile = string.format('%s/%s_%s_GRU_current-learning-rate_%.12f_rnn-size_%s_train_loss_%6.8f_epoch_%.2f_evaluationloss_%.4f.t7', opt.checkpoint_dir, opt.savefile, ScriptName, optim_state.learningRate, opt.rnn_size, train_loss, epoch, val_loss)
         Tname = string.format("%s.txt", ScriptName)
         file = io.open(Tname, "a")
         file:write(savefile,"\n")
