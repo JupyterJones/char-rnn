@@ -33,7 +33,7 @@ except:
 samp = []
 cwd = os.getcwd()
 PATH = cwd+"/"+directory+"/"
-files = glob.glob(PATH+"GRU*.t7")
+files = glob.glob(PATH+"BASE*.t7")
 files.sort(key=os.path.getmtime)
 line = ("\n".join(files))
 samp.append(line)

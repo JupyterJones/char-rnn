@@ -1,0 +1,41 @@
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.96192174,_epoch_1.82_evaluationloss_2.9449.t7
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.64058086,_epoch_3.64_evaluationloss_2.5542.t7
+BASEalice :100:55000 epoch 1.818, train_loss = 2.96192174, grad/param norm = 5.3125e-01, time/batch = 0.6889s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.49223100,_epoch_5.45_evaluationloss_2.3698.t7
+BASEalice :200:55000 epoch 3.636, train_loss = 2.64058086, grad/param norm = 6.7503e-01, time/batch = 0.7401s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.38687835,_epoch_7.27_evaluationloss_2.2689.t7
+BASEalice :300:55000 epoch 5.455, train_loss = 2.49223100, grad/param norm = 3.4881e-01, time/batch = 0.7305s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.29303694,_epoch_9.09_evaluationloss_2.1968.t7
+BASEalice :400:55000 epoch 7.273, train_loss = 2.38687835, grad/param norm = 4.7797e-01, time/batch = 0.6821s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.28811508,_epoch_10.91_evaluationloss_2.1268.t7
+BASEalice :500:55000 epoch 9.091, train_loss = 2.29303694, grad/param norm = 4.8016e-01, time/batch = 0.6553s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.28743640,_epoch_12.73_evaluationloss_2.0971.t7
+BASEalice :600:55000 epoch 10.909, train_loss = 2.28811508, grad/param norm = 4.1467e-01, time/batch = 0.6528s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.18671217,_epoch_14.55_evaluationloss_2.0474.t7
+BASEalice :700:55000 epoch 12.727, train_loss = 2.28743640, grad/param norm = 7.0232e-01, time/batch = 0.8765s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.18441894,_epoch_16.36_evaluationloss_2.0111.t7
+BASEalice :800:55000 epoch 14.545, train_loss = 2.18671217, grad/param norm = 3.6962e-01, time/batch = 0.6648s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.18700626,_epoch_18.18_evaluationloss_1.9850.t7
+BASEalice :900:55000 epoch 16.364, train_loss = 2.18441894, grad/param norm = 2.7578e-01, time/batch = 0.6453s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.18636910,_epoch_20.00_evaluationloss_1.9618.t7
+BASEalice :1000:55000 epoch 18.182, train_loss = 2.18700626, grad/param norm = 3.2145e-01, time/batch = 0.6696s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.14799335,_epoch_21.82_evaluationloss_1.9469.t7
+BASEalice :1100:55000 epoch 20.000, train_loss = 2.18636910, grad/param norm = 3.0235e-01, time/batch = 0.6132s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.10146534,_epoch_23.64_evaluationloss_1.9185.t7
+BASEalice :1200:55000 epoch 21.818, train_loss = 2.14799335, grad/param norm = 5.8425e-01, time/batch = 0.6900s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.09220099,_epoch_25.45_evaluationloss_1.9040.t7
+BASEalice :1300:55000 epoch 23.636, train_loss = 2.10146534, grad/param norm = 3.0683e-01, time/batch = 0.6064s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.07553163,_epoch_27.27_evaluationloss_1.8822.t7
+BASEalice :1400:55000 epoch 25.455, train_loss = 2.09220099, grad/param norm = 3.3971e-01, time/batch = 0.5823s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_1.99889568,_epoch_29.09_evaluationloss_1.8713.t7
+BASEalice :1500:55000 epoch 27.273, train_loss = 2.07553163, grad/param norm = 3.7448e-01, time/batch = 0.6261s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.06374898,_epoch_30.91_evaluationloss_1.8586.t7
+BASEalice :1600:55000 epoch 29.091, train_loss = 1.99889568, grad/param norm = 5.7012e-01, time/batch = 0.6350s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.09756481,_epoch_32.73_evaluationloss_1.8547.t7
+BASEalice :1700:55000 epoch 30.909, train_loss = 2.06374898, grad/param norm = 4.3556e-01, time/batch = 0.6554s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.01106035,_epoch_34.55_evaluationloss_1.8250.t7
+BASEalice :1800:55000 epoch 32.727, train_loss = 2.09756481, grad/param norm = 5.6275e-01, time/batch = 0.6875s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_1.99910417,_epoch_36.36_evaluationloss_1.8115.t7
+BASEalice :1900:55000 epoch 34.545, train_loss = 2.01106035, grad/param norm = 3.0705e-01, time/batch = 0.6558s
+Alice/BASEalice_BASEalice_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.01800134,_epoch_38.18_evaluationloss_1.8141.t7
+BASEalice :2000:55000 epoch 36.364, train_loss = 1.99910417, grad/param norm = 2.7012e-01, time/batch = 0.6443s

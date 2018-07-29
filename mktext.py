@@ -33,7 +33,8 @@ except:
 samp = []
 cwd = os.getcwd()
 PATH = cwd+"/"+directory+"/"
-files = glob.glob(PATH+"GRU*.t7")
+# prevent the detection of vocab.t7 and data.t7
+files = glob.glob(PATH+"BASE*.t7")
 files.sort(key=os.path.getmtime)
 line = ("\n".join(files))
 print "last sample is",line
@@ -66,7 +67,7 @@ for line in samp:
 fn.close() 
 #os.execv("th sample1.lua", line)
 nn = len(line)
-cmd = 'th sample1.lua ',line[nn-1]
+cmd = 'th sample0.lua ',line[nn-1]
 cmd = str(cmd)
 CMD = "".join(cmd)
 print CMD
