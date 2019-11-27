@@ -1,1 +1,2 @@
 Alice/BASEalice2_BASEalice2_GRU_current-learning-rate_0.002000000000_rnn-size_64,_train_loss_2.96192174,_epoch_1.82_evaluationloss_2.9449.t7
+Alice/BASEalice2_BASEalice2_GRU_current-learning-rate_0.002000000000_rnn-size_64_train_loss_2.96192174_epoch_1.82_evaluationloss_2.9449.t7
