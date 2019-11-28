@@ -33,7 +33,7 @@ except:
 samp = []
 cwd = os.getcwd()
 PATH = cwd+"/"+directory+"/"
-files = glob.glob(PATH+"GRU*.t7")
+files = glob.glob(PATH+"BASE*.t7")
 files.sort(key=os.path.getmtime)
 line = ("\n".join(files))
 #print "Model List",line
@@ -73,7 +73,7 @@ print "If the filename already exists it will be appended"
 filename = raw_input("Enter Filename WITHOUT extension: ")
 filename = filename+".txt"
 INPUT = str(INPUT)
-cmd = 'th sample1.lua ',line[nn-1],' -primetext ', '"'+INPUT+'"' ,'>>'+filename 
+cmd = 'th sample0.lua ',line[nn-1],' -primetext ', '"'+INPUT+'"' ,'>>'+filename 
 
 cmd = str(cmd)
 CMD = "".join(cmd)
